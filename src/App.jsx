@@ -50,7 +50,7 @@ function App() {
     <div>
       <header>
         <img className="ali" src={al} alt="" />
-        <h1>Lista de itens necessária antes do casamento!</h1>
+        <h1 className="h1i">Lista de itens necessária antes do casamento!</h1>
         <img className="ali2" src={al} alt="" />
       </header>
       <div className="principal">
@@ -70,6 +70,7 @@ function App() {
             </div>
             <div className="tamanho">
               <div className="coisai"> {coisa.img}</div>
+              <hr />
             </div>
           </div>
         ))}
