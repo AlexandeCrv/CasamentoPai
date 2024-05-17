@@ -66,7 +66,7 @@ function App() {
               </div>
             </div>
             <div className="tamanho">
-              ,<div className="coisad"> {coisa.descrição}</div>
+              <div className="coisad"> {coisa.descrição}</div>
             </div>
             <div className="tamanho">
               <div className="coisai"> {coisa.img}</div>
