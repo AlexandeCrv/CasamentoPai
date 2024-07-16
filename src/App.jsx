@@ -55,7 +55,7 @@ function App() {
       </header>
       <div className="principal">
         {coisas.map((coisa) => (
-          <div>
+          <div className="tudo">
             <div className="tamanho">
               <div className="coisan">{coisa.nome}</div>
             </div>
@@ -70,7 +70,10 @@ function App() {
             </div>
             <div className="tamanho">
               <div className="coisai"> {coisa.img}</div>
-              <hr />
+              <div>
+                {" "}
+                <hr />
+              </div>
             </div>
           </div>
         ))}
